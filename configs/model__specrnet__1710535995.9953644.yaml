@@ -1,0 +1,13 @@
+checkpoint:
+  path: /mount/arbeitsdaten54/projekte/deepfake/SpeechTechnology2023/ww/deepfake-whisper-features/trained_models/model__specrnet__1710535995.9953644/ckpt.pth
+data:
+  seed: 42
+model:
+  name: specrnet
+  optimizer:
+    lr: 0.0001
+    weight_decay: 0.0001
+  parameters:
+    frontend_algorithm:
+    - lfcc
+    input_channels: 1
