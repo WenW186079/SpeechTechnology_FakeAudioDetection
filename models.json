@@ -1,0 +1,52 @@
+{
+  "models": [
+    {
+      "name": "specrnet - en/griffin_lim",
+      "config_file": "configs/model__specrnet__1710998052.7580142.yaml"
+    },
+    {
+      "name": "specrnet - en/vits",
+      "config_file": "configs/model__specrnet__1711007175.876735.yaml"
+    },
+    {
+      "name": "specrnet - en/tacotron2",
+      "config_file": "configs/model__specrnet__1710998432.5584853.yaml"
+    },
+    {
+      "name": "specrnet - de/griffin_lim",
+      "config_file": "configs/model__specrnet__1711126954.0504417.yaml"
+    },
+    {
+      "name": "specrnet - de/vits",
+      "config_file": "configs/model__specrnet__1711007372.530419.yaml"
+    },
+    {
+      "name": "specrnet - de/tacotron2",
+      "config_file": "configs/model__specrnet__1710999769.2622159.yaml"
+    },
+    {
+      "name": "rawnet3 - en/gl",
+      "config_file": "configs/model__rawnet3__1711006815.150007.yaml"
+    },
+    {
+      "name": "rawnet3 - en/vits",
+      "config_file": "configs/model__rawnet3__1711006385.0831056.yaml"
+    },
+    {
+      "name": "rawnet3 - en/tacotron2",
+      "config_file": "configs/model__rawnet3__1711008781.4555314.yaml"
+    },
+    {
+      "name": "rawnet3 - de/gl",
+      "config_file": "configs/model__rawnet3__1711125863.4510744.yaml"
+    },
+    {
+      "name": "rawnet3 - de/vits",
+      "config_file": "configs/model__rawnet3__1711005901.003168.yaml"
+    },
+    {
+      "name": "rawnet3 - de/tacotron2",
+      "config_file": "configs/model__rawnet3__1711005331.662851.yaml"
+    }
+  ]
+}
