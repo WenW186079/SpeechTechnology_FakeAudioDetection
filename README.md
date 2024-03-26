@@ -96,6 +96,42 @@ The list of models are stored in `models.json`, e.g.:
 ## Testing the Model
 Adjust the test data path, metafile_name, and choose the trained model you want to use. Run `my_eval.py`.
 
+## Experiments
+- Experiment 1: Investigating Language Impact on Raw Waveform Input Model
+  - Round 1
+    - Model: RawNet3
+    - Training data: en_Griffin Lim
+    - Test data: de_Griffin Lim, it_Griffin Lim, ru_Griffin Lim
+  - Round 2
+    - Model: RawNet3
+    - Training data: de_Griffin Lim
+    - Test data: en_Griffin Lim, it_Griffin Lim, ru_Griffin Lim
+  - Round 3
+    - Model: RawNet3
+    - Training data: en_VITS_Neon
+    - Test data: de_VITS_Neon, it_VITS
+ - Round 4
+  - Model: RawNet3
+  - Training data: de_VITS_Neon
+  - Test data: en_VITS_Neon, it_VITS 
+- Experiment 2: Investigating Language Impact on spectrogram features input model
+  - Round 1
+    - Model: SpecRNet
+    - Training data: en_Griffin Lim
+    - Test data: de_Griffin Lim, it_Griffin Lim, ru_Griffin Lim
+  - Round 2
+    - Model: SpecRNet
+    - Training data: de_Griffin Lim
+    - Test data: en_Griffin Lim, it_Griffin Lim, ru_Griffin Lim
+  - Round 3
+    - Model: SpecRNet
+    - Training data: en_VITS_Neon
+    - Test data: de_VITS_Neon, it_VITS
+ - Round 4
+  - Model: SpecRNet
+  - Training data: de_VITS_Neon
+  - Test data: en_VITS_Neon, it_VITS
+    
 ## Performance
 The test results of each test data with each model are stored in `test_results.csv`.
 
