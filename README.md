@@ -34,12 +34,12 @@ Bona-fide data source: [Mailabs Speech Dataset](https://www.caito.de/2019/01/03/
 - Balanced: Equal number of spoof and bona-fide samples (1000+1000). As MLAAD data is generated based on Mailabs, the duration of each label is similar.
 
 ### Selected Data
-Traditional generating spoof data:  
-- Griffin Lim (En, De, Ru, It)  
-Neural network-based generating spoof data:  
-- VITS Neon (En, De)
-- VITS  (It)
-- Tacotron2 DCA  (En, De)
+- Traditional generating spoof data:  
+  - Griffin Lim (En, De, Ru, It)  
+- Neural network-based generating spoof data:  
+  - VITS Neon (En, De)
+  - VITS  (It)
+  - Tacotron2 DCA  (En, De)
 
 Note: Due to the limited amount of German data available for Tacotron2 DCA, it is included solely for comparison purposes. Additionally, since Italian data is not available for VITS Neon, VITS is utilized instead.
 
