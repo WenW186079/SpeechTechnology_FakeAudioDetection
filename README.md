@@ -5,8 +5,10 @@
 Install the required dependencies in your environment using:
 `bash install.sh`
 
-List of requirements:   
-`python=3.8  
+List of requirements: 
+
+```
+python=3.8  
 pytorch==1.11.0  
 torchaudio==0.11  
 torchvision==0.12.0  
@@ -14,7 +16,8 @@ asteroid-filterbanks==0.4.0
 librosa==0.9.2  
 pandas>=1.3.0  
 numpy>=1.21.0  
-scikit-learn>=0.24.0`  
+scikit-learn>=0.24.0
+``` 
 
 Or directly use the set environment in IMS:    
 `cd /mount/arbeitsdaten/deepfake/SpeechTechnology2023/ww`  
@@ -73,7 +76,8 @@ And corresponding model path:
 ## Pretrained models
 Pretrained models can be found in `/configs/`  
 The list of models are stored in `models.json`, e.g.:  
-`{
+```
+{
   "models": [
     {
       "name": "specrnet - en/griffin_lim",
@@ -84,7 +88,8 @@ The list of models are stored in `models.json`, e.g.:
       "config_file": "configs/model__specrnet__1711007175.876735.yaml"
     }
     ]
-    }`
+    }
+```
   
 ## Testing the Model
 Adjust the test data path, metafile_name, and choose the trained model you want to use. Run `my_eval.py`.
