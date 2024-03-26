@@ -110,10 +110,10 @@ Adjust the test data path, metafile_name, and choose the trained model you want 
     - Model: RawNet3
     - Training data: en_VITS_Neon
     - Test data: de_VITS_Neon, it_VITS
- - Round 4
-  - Model: RawNet3
-  - Training data: de_VITS_Neon
-  - Test data: en_VITS_Neon, it_VITS 
+  - Round 4
+    - Model: RawNet3
+    - Training data: de_VITS_Neon
+    - Test data: en_VITS_Neon, it_VITS 
 - Experiment 2: Investigating Language Impact on spectrogram features input model
   - Round 1
     - Model: SpecRNet
@@ -127,10 +127,10 @@ Adjust the test data path, metafile_name, and choose the trained model you want 
     - Model: SpecRNet
     - Training data: en_VITS_Neon
     - Test data: de_VITS_Neon, it_VITS
- - Round 4
-  - Model: SpecRNet
-  - Training data: de_VITS_Neon
-  - Test data: en_VITS_Neon, it_VITS
+  - Round 4
+    - Model: SpecRNet
+    - Training data: de_VITS_Neon
+    - Test data: en_VITS_Neon, it_VITS
     
 ## Performance
 The test results of each test data with each model are stored in `test_results.csv`.
