@@ -5,54 +5,54 @@
 Install the required dependencies in your environment using:
 `bash install.sh`
 
-List of requirements: 
-`python=3.8
-pytorch==1.11.0
-torchaudio==0.11
-torchvision==0.12.0
-asteroid-filterbanks==0.4.0
-librosa==0.9.2
-pandas>=1.3.0
-numpy>=1.21.0
-scikit-learn>=0.24.0`
+List of requirements:   
+`python=3.8  
+pytorch==1.11.0  
+torchaudio==0.11  
+torchvision==0.12.0  
+asteroid-filterbanks==0.4.0  
+librosa==0.9.2  
+pandas>=1.3.0  
+numpy>=1.21.0  
+scikit-learn>=0.24.0`  
 
-Or directly use the set environment in IMS:  
-`cd /mount/arbeitsdaten/deepfake/SpeechTechnology2023/ww`
+Or directly use the set environment in IMS:    
+`cd /mount/arbeitsdaten/deepfake/SpeechTechnology2023/ww`  
 `source speech/bin/activate`
 
 ## Data
-Spoof data source: [MLAAD Dataset](https://owncloud.fraunhofer.de/index.php/s/tL2Y1FKrWiX4ZtP#editor)
+Spoof data source: [MLAAD Dataset](https://owncloud.fraunhofer.de/index.php/s/tL2Y1FKrWiX4ZtP#editor)  
 Bona-fide data source: [Mailabs Speech Dataset](https://www.caito.de/2019/01/03/the-m-ailabs-speech-dataset/)
 
 ### Data Selection Rule
-- Random selection.
+- Random selection.  
 - Balanced: Equal number of spoof and bona-fide samples (1000+1000). As MLAAD data is generated based on Mailabs, the duration of each label is similar.
 
 ### Selected Data
-Traditional generating spoof data:
-- Griffin Lim (En, De, Ru, It)
-Neural network-based generating spoof data:
+Traditional generating spoof data:  
+- Griffin Lim (En, De, Ru, It)  
+Neural network-based generating spoof data:  
 - VITS Neon (En, De)
 - VITS  (It)
 - Tacotron2 DCA  (En, De)
 
 Note: Due to the limited amount of German data available for Tacotron2 DCA, it is included solely for comparison purposes. Additionally, since Italian data is not available for VITS Neon, VITS is utilized instead.
 
-Selected data are stored in meta CSV files: `/meta_path/`
-To ensure no overlap, real and spoof data are separated into three files: train, dev, test. For example:
-Real:`de_real_train.csv` `de_real_dev.csv` `de_real_test.csv` 
-Spoof: `de_gl_train.csv` `de_gl_dev.csv` `de_gl_test.csv`
+Selected data are stored in meta CSV files: `/meta_path/`  
+To ensure no overlap, real and spoof data are separated into three files: train, dev, test. For example:  
+Real:`de_real_train.csv` `de_real_dev.csv` `de_real_test.csv`   
+Spoof: `de_gl_train.csv` `de_gl_dev.csv` `de_gl_test.csv`  
 
 ## Training the Model
-Two models are used: 
-RawNet3
-- Input: raw audio
-- No spectrogram-like features
-SpecRNet
-- Frontend algorithm: LFCC
+Two models are used:   
+RawNet3  
+- Input: raw audio  
+- No spectrogram-like features  
+SpecRNet  
+- Frontend algorithm: LFCC  
 
-Adjust the training data path, dev data path, and metafile_name in `my_train.py`.
-List of spoof path:
+Adjust the training data path, dev data path, and metafile_name in `my_train.py`.  
+List of spoof path:  
 - en_gl: /MLAAD/fake/en/griffin_lim
 - en_vits: /MLAAD/fake/en/tts_models_en_ljspeech_vits--neon
 - en_tacotron2:/MLAAD/fake/en/tts_models_en_ljspeech_tacotron2-DCA
@@ -63,16 +63,16 @@ List of spoof path:
 - it_vits:/MLAAD/fake/it/tts_models_it_mai_female_vits
 - ru_gl:/MLAAD/fake/ru/griffin_lim
 
-Adjust the model name:
-`"rawnet3"` or `"specrnet"`
+Adjust the model name:  
+`"rawnet3"` or `"specrnet"`  
 
-And corresponding model path:
-`/configs/training/rawnet3.yaml"` or
-`/configs/training/specrnet.yaml"`
+And corresponding model path:  
+`/configs/training/rawnet3.yaml"` or  
+`/configs/training/specrnet.yaml"`  
 
 ## Pretrained models
-Pretrained models can be found in `/configs/`
-The list of models are stored in `models.json`, e.g.:
+Pretrained models can be found in `/configs/`  
+The list of models are stored in `models.json`, e.g.:  
 `{
   "models": [
     {
