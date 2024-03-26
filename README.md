@@ -89,8 +89,8 @@ The list of models are stored in `models.json`, e.g.:
       "name": "specrnet - en/vits",
       "config_file": "configs/model__specrnet__1711007175.876735.yaml"
     }
-    ]
-    }
+  ]
+}
 ```
   
 ## Testing the Model
