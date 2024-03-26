@@ -20,8 +20,10 @@ scikit-learn>=0.24.0
 ``` 
 
 Or directly use the set environment in IMS:    
-`cd /mount/arbeitsdaten/deepfake/SpeechTechnology2023/ww`  
-`source speech/bin/activate`
+```
+cd /mount/arbeitsdaten/deepfake/SpeechTechnology2023/ww
+source speech/bin/activate
+```
 
 ## Data
 Spoof data source: [MLAAD Dataset](https://owncloud.fraunhofer.de/index.php/s/tL2Y1FKrWiX4ZtP#editor)  
