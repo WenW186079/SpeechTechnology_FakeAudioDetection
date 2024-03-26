@@ -50,11 +50,11 @@ Spoof: `de_gl_train.csv` `de_gl_dev.csv` `de_gl_test.csv`
 
 ## Training the Model
 Two models are used:   
-RawNet3  
-- Input: raw audio  
-- No spectrogram-like features  
-SpecRNet  
-- Frontend algorithm: LFCC  
+- RawNet3  
+  - Input: raw audio  
+  - No spectrogram-like features  
+- SpecRNet  
+  - Frontend algorithm: LFCC  
 
 Adjust the training data path, dev data path, and metafile_name in `my_train.py`.  
 List of spoof path:  
