@@ -67,6 +67,14 @@ List of spoof path:
 - it_gl:/MLAAD/fake/it/griffin_lim
 - it_vits:/MLAAD/fake/it/tts_models_it_mai_female_vits
 - ru_gl:/MLAAD/fake/ru/griffin_lim
+- es_gl:/MLAAD/fake/es/griffin_lim
+- es_vits:/MLAAD/fake/es/tts_models_es_css10_vits
+- pl_gl:/MLAAD/fake/pl/griffin_lim
+- pl_vits:/MLAAD/fake/pl/tts_models_pl_mai_female_vits
+- fr_gl:/MLAAD/fake/fr/griffin_lim
+- fr_vits:/MLAAD/fake/fr/tts_models_fr_css10_vits
+- uk_gl:/MLAAD/fake/uk/griffin_lim
+- uk_vits:/MLAAD/fake/uk/tts_models_uk_mai_vits
 
 Adjust the model name:  
 `"rawnet3"` or `"specrnet"`  
