@@ -59,18 +59,16 @@ Two models are used:
 Adjust the training data path, dev data path, and metafile_name in `my_train.py`.  
 List of spoof path:  
 - en_gl: /MLAAD/fake/en/griffin_lim
-- en_vits: /MLAAD/fake/en/tts_models_en_ljspeech_vits--neon
-- en_tacotron2:/MLAAD/fake/en/tts_models_en_ljspeech_tacotron2-DCA
+- en_vits: /MLAAD/fake/en/tts_models_en_ljspeech_vits
 - de_gl: /MLAAD/fake/de/griffin_lim
-- de_vits:/MLAAD/fake/de/tts_models_de_css10_vits-neon
-- de_tacotron2:/MLAAD/fake/de/tts_models_de_thorsten_tacotron2-DCA
+- de_vits:/MLAAD/fake/de/tts_models_de_thorsten_vits
 - it_gl:/MLAAD/fake/it/griffin_lim
-- it_vits:/MLAAD/fake/it/tts_models_it_mai_female_vits
+- it_vits:/MLAAD/fake/it/tts_models_it_mai_female_vits + /MLAAD/fake/it/tts_models_it_mai_male_vits 
 - ru_gl:/MLAAD/fake/ru/griffin_lim
 - es_gl:/MLAAD/fake/es/griffin_lim
 - es_vits:/MLAAD/fake/es/tts_models_es_css10_vits
 - pl_gl:/MLAAD/fake/pl/griffin_lim
-- pl_vits:/MLAAD/fake/pl/tts_models_pl_mai_female_vits
+- pl_vits:/MLAAD/fake/pl/tts_models_pl_mai_female_vits ##Only have female samples
 - fr_gl:/MLAAD/fake/fr/griffin_lim
 - fr_vits:/MLAAD/fake/fr/tts_models_fr_css10_vits
 - uk_gl:/MLAAD/fake/uk/griffin_lim
