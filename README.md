@@ -34,14 +34,11 @@ Bona-fide data source: [Mailabs Speech Dataset](https://www.caito.de/2019/01/03/
 - Balanced: Equal number of spoof and bona-fide samples (1000+1000). As MLAAD data is generated based on Mailabs, the duration of each label is similar.
 
 ### Selected Data
-- Traditional generating spoof data:  
-  - Griffin Lim (En, De, Ru, It)  
-- Neural network-based generating spoof data:  
+- Traditional generating spoof data:
+  - Griffin Lim (En, De, Fr, Ru, It, Es, Pl, Uk)
+- Neural network-based generating spoof data:
+  - VITS (En, De, Fr, It, Es, Pl, Uk)
   - VITS Neon (En, De)
-  - VITS  (It)
-  - Tacotron2 DCA  (En, De)
-
-Note: Due to the limited amount of German data available for Tacotron2 DCA, it is included solely for comparison purposes. Additionally, since Italian data is not available for VITS Neon, VITS is utilized instead.
 
 Selected data are stored in meta CSV files: `/meta_path/`  
 To ensure no overlap, real and spoof data are separated into three files: train, dev, test. For example:  
@@ -56,7 +53,7 @@ Two models are used:
 - SpecRNet  
   - Frontend algorithm: LFCC  
 
-Adjust the training data path, dev data path, and metafile_name in `my_train.py`.  
+Adjust the `real_metafile_name` and `spoof_metafile_name` of training data and dev data in `my_train.py`.  
 List of spoof path:  
 - en_gl: /MLAAD/fake/en/griffin_lim
 - en_vits: /MLAAD/fake/en/tts_models_en_ljspeech_vits
@@ -100,51 +97,14 @@ The list of models are stored in `models.json`, e.g.:
 ```
   
 ## Testing the Model
-Adjust the test data path, metafile_name, and choose the trained model you want to use. Run `my_eval.py`.
-
-## Experiments
-- Experiment 1: Investigating Language Impact on Raw Waveform Input Model
-  - Round 1
-    - Model: RawNet3
-    - Training data: en_Griffin Lim
-    - Test data: de_Griffin Lim, it_Griffin Lim, ru_Griffin Lim
-  - Round 2
-    - Model: RawNet3
-    - Training data: de_Griffin Lim
-    - Test data: en_Griffin Lim, it_Griffin Lim, ru_Griffin Lim
-  - Round 3
-    - Model: RawNet3
-    - Training data: en_VITS_Neon
-    - Test data: de_VITS_Neon, it_VITS
-  - Round 4
-    - Model: RawNet3
-    - Training data: de_VITS_Neon
-    - Test data: en_VITS_Neon, it_VITS 
-- Experiment 2: Investigating Language Impact on spectrogram features input model
-  - Round 1
-    - Model: SpecRNet
-    - Training data: en_Griffin Lim
-    - Test data: de_Griffin Lim, it_Griffin Lim, ru_Griffin Lim
-  - Round 2
-    - Model: SpecRNet
-    - Training data: de_Griffin Lim
-    - Test data: en_Griffin Lim, it_Griffin Lim, ru_Griffin Lim
-  - Round 3
-    - Model: SpecRNet
-    - Training data: en_VITS_Neon
-    - Test data: de_VITS_Neon, it_VITS
-  - Round 4
-    - Model: SpecRNet
-    - Training data: de_VITS_Neon
-    - Test data: en_VITS_Neon, it_VITS
+Adjust the `real_metafile_name` and `spoof_metafile_name` of test data and choose the trained model you want to use. Run `my_eval.py`.
     
 ## Performance
 The test results of each test data with each model are stored in `test_results.csv`.
 
 ## Conclusion
-- The language factor impacts the effectiveness of fake audio detection, whether utilizing a raw waveform input model or employing a spectrogram features input model. Similar languages perform slightly better in detection outcomes.
-
-- In general, for neural generating spoof, spectrogram-like features can lead better performance.
+- Based on the findings from the MLAAD dataset, it appears that the language factor does not significantly influence the detection of fake audio.
+- When dealing with datasets of limited size, utilizing spectrogram like features for neural spoof generation tends to yield improved performance.
 
 
 
