@@ -101,7 +101,8 @@ The list of models are stored in `models.json`, e.g.:
   ]
 }
 ```
-  
+The trained models can be found in [trained_models](https://drive.google.com/drive/folders/1n7g5zXGX4D3aslLPvk4gS8rNANnP4jD-?usp=drive_link)
+
 ## Testing the Model
 Adjust the `real_metafile_name` and `spoof_metafile_name` of test data and choose the trained model you want to use. Run `my_eval.py`.
     
