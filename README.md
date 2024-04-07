@@ -40,6 +40,11 @@ Bona-fide data source: [Mailabs Speech Dataset](https://www.caito.de/2019/01/03/
   - VITS (En, De, Fr, It, Es, Pl, Uk)
   - VITS Neon (En, De)
 
+Language codes: En-English, De-German, Fr-French, Ru-Russian, It-Italian, Es-Spanish, Pl-Polish, Uk-Ukrainian  
+→ Germanic: English, German  
+→ Romance: French, Italian, Spanish  
+→ Slavic: Polish, Ukrainian, Russian  
+
 Selected data are stored in meta CSV files: `/meta_path/`  
 To ensure no overlap, real and spoof data are separated into three files: train, dev, test. For example:  
 Real:`de_real_train.csv` `de_real_dev.csv` `de_real_test.csv`   
