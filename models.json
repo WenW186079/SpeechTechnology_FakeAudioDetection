@@ -1,0 +1,74 @@
+{
+  "models": [
+    {
+      "name": "rawnet3",
+      "configs": [
+        {
+          "training data language": "en",
+          "training data model": "griffin_lim",
+          "file": "model__rawnet3__1711981315.3284469.yaml"
+        },
+        {
+          "training data language": "de",
+          "training data model": "griffin_lim",
+          "file": "model__rawnet3__1711982401.4415708.yaml"
+        },
+        {
+          "training data language": "uk",
+          "training data model": "griffin_lim",
+          "file": "model__rawnet3__1711981012.7818565.yaml"
+        },
+        {
+          "training data language": "en",
+          "training data model": "vits",
+          "file": "model__rawnet3__1711981631.6480997.yaml"
+        },
+        {
+          "training data language": "de",
+          "training data model": "vits",
+          "file": "model__rawnet3__1711982011.8915806.yaml"
+        },
+        {
+          "training data language": "uk",
+          "training data model": "vits",
+          "file": "model__rawnet3__1711980734.336461.yaml"
+        }
+      ]
+    },
+    {
+      "name": "specrnet",
+      "configs": [
+        {
+          "training data language": "en",
+          "training data model": "griffin_lim",
+          "file": "model__specrnet__1711979909.836801.yaml"
+        },
+        {
+          "training data language": "de",
+          "training data model": "griffin_lim",
+          "file": "model__specrnet__1711980338.6448445.yaml"
+        },
+        {
+          "training data language": "uk",
+          "training data model": "griffin_lim",
+          "file": "model__specrnet__1711980456.801027.yaml"
+        },
+        {
+          "training data language": "en",
+          "training data model": "vits",
+          "file": "model__specrnet__1711980090.7782454.yaml"
+        },
+        {
+          "training data language": "de",
+          "training data model": "vits",
+          "file": "model__specrnet__1711980198.1790054.yaml"
+        },
+        {
+          "training data language": "uk",
+          "training data model": "vits",
+          "file": "model__specrnet__1711980607.0468488.yaml"
+        }
+      ]
+    }
+  ]
+}
