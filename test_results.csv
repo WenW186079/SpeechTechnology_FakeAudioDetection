@@ -1,0 +1,181 @@
+Model,Train,Test,EER,ACC,Details
+RawNet3,en_gl,en_gl,0.0,0.9966,"Threshold at EER: 0.10953116416931152
+EER: 0.0000, ACC: 0.9966, Precision: 1.0000, Recall: 0.9933, F1-score: 0.9967, AUC: 1.0000"
+RawNet3,en_gl,de_gl,0.027,0.9696,"Threshold at EER: 0.1758260577917099
+EER: 0.0270, ACC: 0.9696, Precision: 0.9862, Recall: 0.9533, F1-score: 0.9695, AUC: 0.9969"
+RawNet3,en_gl,fr_gl,0.0068,0.9831,"Threshold at EER: 0.07688725739717484
+EER: 0.0068, ACC: 0.9831, Precision: 1.0000, Recall: 0.9667, F1-score: 0.9831, AUC: 0.9989"
+RawNet3,en_gl,it_gl,0.0,1.0,"Threshold at EER: 0.13528753817081451
+EER: 0.0000, ACC: 1.0000, Precision: 1.0000, Recall: 1.0000, F1-score: 1.0000, AUC: 1.0000"
+RawNet3,en_gl,es_gl,0.0135,0.9662,"Threshold at EER: 0.06722113490104675
+EER: 0.0135, ACC: 0.9662, Precision: 1.0000, Recall: 0.9333, F1-score: 0.9655, AUC: 0.9996"
+RawNet3,en_gl,pl_gl,0.0,0.9527,"Threshold at EER: 0.019946429878473282
+EER: 0.0000, ACC: 0.9527, Precision: 1.0000, Recall: 0.9067, F1-score: 0.9510, AUC: 1.0000"
+RawNet3,en_gl,uk_gl,0.0135,0.9831,"Threshold at EER: 0.3726314902305603
+EER: 0.0135, ACC: 0.9831, Precision: 0.9866, Recall: 0.9800, F1-score: 0.9833, AUC: 0.9925"
+RawNet3,en_gl,ru_gl,0.0338,0.8953,"Threshold at EER: 0.05342946574091911
+EER: 0.0338, ACC: 0.8953, Precision: 0.9837, Recall: 0.8067, F1-score: 0.8864, AUC: 0.9869"
+RawNet3,de_gl,en_gl,0.0203,0.9561,"Threshold at EER: 0.27062904834747314
+EER: 0.0203, ACC: 0.9561, Precision: 0.9928, Recall: 0.9200, F1-score: 0.9550, AUC: 0.9939"
+RawNet3,de_gl,de_gl,0.0608,0.9459,"Threshold at EER: 0.13689398765563965
+EER: 0.0608, ACC: 0.9459, Precision: 1.0000, Recall: 0.8933, F1-score: 0.9437, AUC: 0.9866"
+RawNet3,de_gl,fr_gl,0.0203,0.9122,"Threshold at EER: 0.1823592483997345
+EER: 0.0203, ACC: 0.9122, Precision: 0.9921, Recall: 0.8333, F1-score: 0.9058, AUC: 0.9929"
+RawNet3,de_gl,it_gl,0.0405,0.9392,"Threshold at EER: 0.2259591817855835
+EER: 0.0405, ACC: 0.9392, Precision: 0.9925, Recall: 0.8867, F1-score: 0.9366, AUC: 0.9950"
+RawNet3,de_gl,es_gl,0.0473,0.8986,"Threshold at EER: 0.18723773956298828
+EER: 0.0473, ACC: 0.8986, Precision: 0.9918, Recall: 0.8067, F1-score: 0.8897, AUC: 0.9871"
+RawNet3,de_gl,pl_gl,0.0135,0.9392,"Threshold at EER: 0.1386302262544632
+EER: 0.0135, ACC: 0.9392, Precision: 1.0000, Recall: 0.8800, F1-score: 0.9362, AUC: 0.9996"
+RawNet3,de_gl,uk_gl,0.0405,0.9426,"Threshold at EER: 0.4106366038322449
+EER: 0.0405, ACC: 0.9426, Precision: 0.9586, Recall: 0.9267, F1-score: 0.9424, AUC: 0.9843"
+RawNet3,de_gl,ru_gl,0.0405,0.9459,"Threshold at EER: 0.34654611349105835
+EER: 0.0405, ACC: 0.9459, Precision: 0.9718, Recall: 0.9200, F1-score: 0.9452, AUC: 0.9906"
+RawNet3,uk_gl,en_gl,0.0135,0.9426,"Threshold at EER: 0.17536209523677826
+EER: 0.0135, ACC: 0.9426, Precision: 0.9854, Recall: 0.9000, F1-score: 0.9408, AUC: 0.9936"
+RawNet3,uk_gl,de_gl,0.0405,0.9257,"Threshold at EER: 0.07757695764303207
+EER: 0.0405, ACC: 0.9257, Precision: 1.0000, Recall: 0.8533, F1-score: 0.9209, AUC: 0.9911"
+RawNet3,uk_gl,fr_gl,0.0068,0.777,"Threshold at EER: 0.04773807153105736
+EER: 0.0068, ACC: 0.7770, Precision: 1.0000, Recall: 0.5600, F1-score: 0.7179, AUC: 0.9998"
+RawNet3,uk_gl,it_gl,0.0068,0.9899,"Threshold at EER: 0.4499806761741638
+EER: 0.0068, ACC: 0.9899, Precision: 1.0000, Recall: 0.9800, F1-score: 0.9899, AUC: 0.9999"
+RawNet3,uk_gl,es_gl,0.027,0.8682,"Threshold at EER: 0.09970947355031967
+EER: 0.0270, ACC: 0.8682, Precision: 1.0000, Recall: 0.7400, F1-score: 0.8506, AUC: 0.9988"
+RawNet3,uk_gl,pl_gl,0.0,0.902,"Threshold at EER: 0.03591180592775345
+EER: 0.0000, ACC: 0.9020, Precision: 1.0000, Recall: 0.8067, F1-score: 0.8930, AUC: 1.0000"
+RawNet3,uk_gl,uk_gl,0.0068,0.9966,"Threshold at EER: 0.5270262956619263
+EER: 0.0068, ACC: 0.9966, Precision: 0.9934, Recall: 1.0000, F1-score: 0.9967, AUC: 0.9932"
+RawNet3,uk_gl,ru_gl,0.0135,0.9764,"Threshold at EER: 0.3817501962184906
+EER: 0.0135, ACC: 0.9764, Precision: 1.0000, Recall: 0.9533, F1-score: 0.9761, AUC: 0.9997"
+RawNet3,en_vits,en_vits,0.0068,0.9966,"Threshold at EER: 0.1916504204273224
+EER: 0.0068, ACC: 0.9966, Precision: 1.0000, Recall: 0.9933, F1-score: 0.9967, AUC: 0.9997"
+RawNet3,en_vits,de_vits,0.7534,0.4966,"Threshold at EER: 0.9996776580810547
+EER: 0.7534, ACC: 0.4966, Precision: 0.5017, Recall: 0.9800, F1-score: 0.6637, AUC: 0.1976"
+RawNet3,en_vits,fr_vits,0.7466,0.5068,"Threshold at EER: 0.9998229146003723
+EER: 0.7466, ACC: 0.5068, Precision: 0.5068, Recall: 1.0000, F1-score: 0.6726, AUC: 0.2001"
+RawNet3,en_vits,it_vits,0.5608,0.5068,"Threshold at EER: 0.9989239573478699
+EER: 0.5608, ACC: 0.5068, Precision: 0.5068, Recall: 1.0000, F1-score: 0.6726, AUC: 0.4495"
+RawNet3,en_vits,es_vits,0.5879,0.5034,"Threshold at EER: 0.9995653033256531
+EER: 0.5879, ACC: 0.5034, Precision: 0.5051, Recall: 0.9933, F1-score: 0.6697, AUC: 0.3681"
+RawNet3,en_vits,pl_vits,0.1216,0.5304,"Threshold at EER: 0.984514057636261
+EER: 0.1216, ACC: 0.5304, Precision: 0.5190, Recall: 1.0000, F1-score: 0.6834, AUC: 0.9347"
+RawNet3,en_vits,uk_vits,0.0811,0.5068,"Threshold at EER: 0.9999995827674866
+EER: 0.0811, ACC: 0.5068, Precision: 0.5068, Recall: 1.0000, F1-score: 0.6726, AUC: 0.4577"
+RawNet3,de_vits,en_vits,0.7872,0.4865,"Threshold at EER: 0.9890347719192505
+EER: 0.7872, ACC: 0.4865, Precision: 0.4966, Recall: 0.9600, F1-score: 0.6545, AUC: 0.1294"
+RawNet3,de_vits,de_vits,0.0,1.0,"Threshold at EER: 0.10123215615749359
+EER: 0.0000, ACC: 1.0000, Precision: 1.0000, Recall: 1.0000, F1-score: 1.0000, AUC: 1.0000"
+RawNet3,de_vits,fr_vits,0.1655,0.6689,"Threshold at EER: 0.7479254007339478
+EER: 0.1655, ACC: 0.6689, Precision: 0.6092, Recall: 0.9667, F1-score: 0.7474, AUC: 0.9051"
+RawNet3,de_vits,it_vits,0.4054,0.5034,"Threshold at EER: 0.9562320709228516
+EER: 0.4054, ACC: 0.5034, Precision: 0.5051, Recall: 0.9933, F1-score: 0.6697, AUC: 0.6081"
+RawNet3,de_vits,es_vits,0.2737,0.5236,"Threshold at EER: 0.8825902342796326
+EER: 0.2737, ACC: 0.5236, Precision: 0.5156, Recall: 0.9933, F1-score: 0.6788, AUC: 0.7940"
+RawNet3,de_vits,pl_vits,0.6081,0.5068,"Threshold at EER: 0.9717720150947571
+EER: 0.6081, ACC: 0.5068, Precision: 0.5068, Recall: 1.0000, F1-score: 0.6726, AUC: 0.3454"
+RawNet3,de_vits,uk_vits,0.5608,0.4899,"Threshold at EER: 0.8959465622901917
+EER: 0.5608, ACC: 0.4899, Precision: 0.4983, Recall: 0.9667, F1-score: 0.6576, AUC: 0.4427"
+RawNet3,uk_vits,en_vits,0.0811,0.9189,"Threshold at EER: 0.47997942566871643
+EER: 0.0811, ACC: 0.9189, Precision: 0.9257, Recall: 0.9133, F1-score: 0.9195, AUC: 0.9753"
+RawNet3,uk_vits,de_vits,0.2804,0.4764,"Threshold at EER: 0.9466392993927002
+EER: 0.2804, ACC: 0.4764, Precision: 0.4909, Recall: 0.9000, F1-score: 0.6353, AUC: 0.7551"
+RawNet3,uk_vits,fr_vits,0.6655,0.5068,"Threshold at EER: 0.9987524747848511
+EER: 0.6655, ACC: 0.5068, Precision: 0.5068, Recall: 1.0000, F1-score: 0.6726, AUC: 0.2960"
+RawNet3,uk_vits,it_vits,0.5405,0.5068,"Threshold at EER: 0.9925438165664673
+EER: 0.5405, ACC: 0.5068, Precision: 0.5068, Recall: 0.9933, F1-score: 0.6712, AUC: 0.4300"
+RawNet3,uk_vits,es_vits,0.6588,0.4764,"Threshold at EER: 0.9915619492530823
+EER: 0.6588, ACC: 0.4764, Precision: 0.4913, Recall: 0.9400, F1-score: 0.6453, AUC: 0.2966"
+RawNet3,uk_vits,pl_vits,0.0405,0.8209,"Threshold at EER: 0.9185187816619873
+EER: 0.0405, ACC: 0.8209, Precision: 0.7437, Recall: 0.9867, F1-score: 0.8481, AUC: 0.9816"
+RawNet3,uk_vits,uk_vits,0.0,1.0,"Threshold at EER: 0.024328531697392464
+EER: 0.0000, ACC: 1.0000, Precision: 1.0000, Recall: 1.0000, F1-score: 1.0000, AUC: 1.0000"
+specrnet,en_gl,en_gl,0.0135,0.9932,"Threshold at EER: 0.5588200688362122
+EER: 0.0135, ACC: 0.9932, Precision: 0.9867, Recall: 1.0000, F1-score: 0.9933, AUC: 0.9994"
+specrnet,en_gl,de_gl,0.0608,0.9527,"Threshold at EER: 0.059191834181547165
+EER: 0.0608, ACC: 0.9527, Precision: 1.0000, Recall: 0.9054, F1-score: 0.9504, AUC: 0.9881"
+specrnet,en_gl,fr_gl,0.0,0.9966,"Threshold at EER: 0.6507475972175598
+EER: 0.0000, ACC: 0.9966, Precision: 0.9933, Recall: 1.0000, F1-score: 0.9966, AUC: 1.0000"
+specrnet,en_gl,it_gl,0.0,1.0,"Threshold at EER: 0.4036614000797272
+EER: 0.0000, ACC: 1.0000, Precision: 1.0000, Recall: 1.0000, F1-score: 1.0000, AUC: 1.0000"
+specrnet,en_gl,es_gl,0.0811,0.8041,"Threshold at EER: 0.08065995573997498
+EER: 0.0811, ACC: 0.8041, Precision: 1.0000, Recall: 0.6081, F1-score: 0.7563, AUC: 0.9807"
+specrnet,en_gl,pl_gl,0.0068,0.9899,"Threshold at EER: 0.13994111120700836
+EER: 0.0068, ACC: 0.9899, Precision: 1.0000, Recall: 0.9797, F1-score: 0.9898, AUC: 1.0000"
+specrnet,en_gl,uk_gl,0.0,0.9932,"Threshold at EER: 0.6120940446853638
+EER: 0.0000, ACC: 0.9932, Precision: 0.9867, Recall: 1.0000, F1-score: 0.9933, AUC: 1.0000"
+specrnet,en_gl,ru_gl,0.1216,0.8581,"Threshold at EER: 0.021336184814572334
+EER: 0.1216, ACC: 0.8581, Precision: 1.0000, Recall: 0.7162, F1-score: 0.8346, AUC: 0.9647"
+specrnet,de_gl,en_gl,0.0203,0.9831,"Threshold at EER: 0.34454280138015747
+EER: 0.0203, ACC: 0.9831, Precision: 0.9931, Recall: 0.9730, F1-score: 0.9829, AUC: 0.9993"
+specrnet,de_gl,de_gl,0.0541,0.9493,"Threshold at EER: 0.13942767679691315
+EER: 0.0541, ACC: 0.9493, Precision: 0.9926, Recall: 0.9054, F1-score: 0.9470, AUC: 0.9898"
+specrnet,de_gl,fr_gl,0.0068,0.9966,"Threshold at EER: 0.7158117294311523
+EER: 0.0068, ACC: 0.9966, Precision: 0.9933, Recall: 1.0000, F1-score: 0.9966, AUC: 0.9997"
+specrnet,de_gl,it_gl,0.0,0.9966,"Threshold at EER: 0.5082567930221558
+EER: 0.0000, ACC: 0.9966, Precision: 0.9933, Recall: 1.0000, F1-score: 0.9966, AUC: 1.0000"
+specrnet,de_gl,es_gl,0.1216,0.8176,"Threshold at EER: 0.08480712026357651
+EER: 0.1216, ACC: 0.8176, Precision: 1.0000, Recall: 0.6351, F1-score: 0.7769, AUC: 0.9550"
+specrnet,de_gl,pl_gl,0.0068,0.9899,"Threshold at EER: 0.20878079533576965
+EER: 0.0068, ACC: 0.9899, Precision: 1.0000, Recall: 0.9797, F1-score: 0.9898, AUC: 1.0000"
+specrnet,de_gl,uk_gl,0.0,0.9932,"Threshold at EER: 0.7644888162612915
+EER: 0.0000, ACC: 0.9932, Precision: 0.9867, Recall: 1.0000, F1-score: 0.9933, AUC: 1.0000"
+specrnet,de_gl,ru_gl,0.1824,0.8581,"Threshold at EER: 0.024478958919644356
+EER: 0.1824, ACC: 0.8581, Precision: 1.0000, Recall: 0.7162, F1-score: 0.8346, AUC: 0.9230"
+specrnet,uk_gl,en_gl,0.0338,0.9628,"Threshold at EER: 0.7476588487625122
+EER: 0.0338, ACC: 0.9628, Precision: 0.9477, Recall: 0.9797, F1-score: 0.9635, AUC: 0.9979"
+specrnet,uk_gl,de_gl,0.0676,0.9459,"Threshold at EER: 0.06492912769317627
+EER: 0.0676, ACC: 0.9459, Precision: 0.9925, Recall: 0.8986, F1-score: 0.9433, AUC: 0.9839"
+specrnet,uk_gl,fr_gl,0.0,0.9966,"Threshold at EER: 0.8176331520080566
+EER: 0.0000, ACC: 0.9966, Precision: 0.9933, Recall: 1.0000, F1-score: 0.9966, AUC: 1.0000"
+specrnet,uk_gl,it_gl,0.0068,0.9899,"Threshold at EER: 0.8066011071205139
+EER: 0.0068, ACC: 0.9899, Precision: 0.9801, Recall: 1.0000, F1-score: 0.9900, AUC: 0.9999"
+specrnet,uk_gl,es_gl,0.1892,0.8108,"Threshold at EER: 0.02131342515349388
+EER: 0.1892, ACC: 0.8108, Precision: 0.9894, Recall: 0.6284, F1-score: 0.7686, AUC: 0.9273"
+specrnet,uk_gl,pl_gl,0.0,0.9966,"Threshold at EER: 0.5194183588027954
+EER: 0.0000, ACC: 0.9966, Precision: 0.9933, Recall: 1.0000, F1-score: 0.9966, AUC: 1.0000"
+specrnet,uk_gl,uk_gl,0.0,0.9966,"Threshold at EER: 0.5135347247123718
+EER: 0.0000, ACC: 0.9966, Precision: 0.9933, Recall: 1.0000, F1-score: 0.9966, AUC: 1.0000"
+specrnet,uk_gl,ru_gl,0.2162,0.8581,"Threshold at EER: 0.005018311087042093
+EER: 0.2162, ACC: 0.8581, Precision: 1.0000, Recall: 0.7162, F1-score: 0.8346, AUC: 0.8982"
+specrnet,en_vits,en_vits,0.0,1.0,"Threshold at EER: 0.007828404195606709
+EER: 0.0000, ACC: 1.0000, Precision: 1.0000, Recall: 1.0000, F1-score: 1.0000, AUC: 1.0000"
+specrnet,en_vits,de_vits,0.2568,0.4764,"Threshold at EER: 0.9917045831680298
+EER: 0.2568, ACC: 0.4764, Precision: 0.4879, Recall: 0.9527, F1-score: 0.6453, AUC: 0.7882"
+specrnet,en_vits,fr_vits,0.0,0.9223,"Threshold at EER: 0.7869253754615784
+EER: 0.0000, ACC: 0.9223, Precision: 0.8655, Recall: 1.0000, F1-score: 0.9279, AUC: 1.0000"
+specrnet,en_vits,it_vits,0.0,0.9932,"Threshold at EER: 0.5386087894439697
+EER: 0.0000, ACC: 0.9932, Precision: 0.9867, Recall: 1.0000, F1-score: 0.9933, AUC: 1.0000"
+specrnet,en_vits,es_vits,0.0878,0.5236,"Threshold at EER: 0.964805543422699
+EER: 0.0878, ACC: 0.5236, Precision: 0.5121, Recall: 1.0000, F1-score: 0.6773, AUC: 0.9790"
+specrnet,en_vits,pl_vits,0.0,1.0,"Threshold at EER: 0.19339266419410706
+EER: 0.0000, ACC: 1.0000, Precision: 1.0000, Recall: 1.0000, F1-score: 1.0000, AUC: 1.0000"
+specrnet,en_vits,uk_vits,0.0,0.5068,"Threshold at EER: 0.9623797535896301
+EER: 0.0000, ACC: 0.5068, Precision: 0.5034, Recall: 1.0000, F1-score: 0.6697, AUC: 1.0000"
+specrnet,de_vits,en_vits,0.1284,0.5034,"Threshold at EER: 0.9868308305740356
+EER: 0.1284, ACC: 0.5034, Precision: 0.5017, Recall: 1.0000, F1-score: 0.6682, AUC: 0.9511"
+specrnet,de_vits,de_vits,0.0,0.9966,"Threshold at EER: 0.02533739246428013
+EER: 0.0000, ACC: 0.9966, Precision: 1.0000, Recall: 0.9932, F1-score: 0.9966, AUC: 1.0000"
+specrnet,de_vits,fr_vits,0.1284,0.5,"Threshold at EER: 0.9882457256317139
+EER: 0.1284, ACC: 0.5000, Precision: 0.5000, Recall: 1.0000, F1-score: 0.6667, AUC: 0.9276"
+specrnet,de_vits,it_vits,0.0068,0.9493,"Threshold at EER: 0.9230971932411194
+EER: 0.0068, ACC: 0.9493, Precision: 0.9080, Recall: 1.0000, F1-score: 0.9518, AUC: 0.9997"
+specrnet,de_vits,es_vits,0.0473,0.5912,"Threshold at EER: 0.9414830207824707
+EER: 0.0473, ACC: 0.5912, Precision: 0.5506, Recall: 0.9932, F1-score: 0.7084, AUC: 0.9878"
+specrnet,de_vits,pl_vits,0.2297,0.5,"Threshold at EER: 0.99216228723526
+EER: 0.2297, ACC: 0.5000, Precision: 0.5000, Recall: 1.0000, F1-score: 0.6667, AUC: 0.8325"
+specrnet,de_vits,uk_vits,0.0135,0.9291,"Threshold at EER: 0.8216233849525452
+EER: 0.0135, ACC: 0.9291, Precision: 0.8757, Recall: 1.0000, F1-score: 0.9338, AUC: 0.998"
+specrnet,uk_vits,en_vits,0.1284,0.8243,"Threshold at EER: 0.6558123826980591
+EER: 0.1284, ACC: 0.8243, Precision: 0.7824, Recall: 0.8986, F1-score: 0.8365, AUC: 0.9217"
+specrnet,uk_vits,de_vits,0.0338,0.9797,"Threshold at EER: 0.3884076178073883
+EER: 0.0338, ACC: 0.9797, Precision: 0.9931, Recall: 0.9662, F1-score: 0.9795, AUC: 0.9778"
+specrnet,uk_vits,fr_vits,0.1351,0.4966,"Threshold at EER: 0.9779900312423706
+EER: 0.1351, ACC: 0.4966, Precision: 0.4983, Recall: 0.9932, F1-score: 0.6637, AUC: 0.9087"
+specrnet,uk_vits,it_vits,0.0203,0.7635,"Threshold at EER: 0.9154534935951233
+EER: 0.0203, ACC: 0.7635, Precision: 0.6789, Recall: 1.0000, F1-score: 0.8087, AUC: 0.9961"
+specrnet,uk_vits,es_vits,0.0405,0.8649,"Threshold at EER: 0.7923754453659058
+EER: 0.0405, ACC: 0.8649, Precision: 0.7903, Recall: 0.9932, F1-score: 0.8802, AUC: 0.9908"
+specrnet,uk_vits,pl_vits,0.3243,0.4831,"Threshold at EER: 0.9935997724533081
+EER: 0.3243, ACC: 0.4831, Precision: 0.4914, Recall: 0.9662, F1-score: 0.6515, AUC: 0.6917"
+specrnet,uk_vits,uk_vits,0.0,1.0,"Threshold at EER: 0.001807990251109004
+EER: 0.0000, ACC: 1.0000, Precision: 1.0000, Recall: 1.0000, F1-score: 1.0000, AUC: 1.0000"
