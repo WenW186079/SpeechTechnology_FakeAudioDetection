@@ -108,6 +108,44 @@ The list of models are stored in `models.json`, e.g.:
 ```
 The trained models can be found in [trained_models](https://drive.google.com/drive/folders/1n7g5zXGX4D3aslLPvk4gS8rNANnP4jD-?usp=drive_link)
 
+## Experiments
+
+- Experiment 1: Investigating Language Impact on Raw Waveform Input Model
+  - Round 1
+    - Model: RawNet3  
+    - Training data: en_Griffin Lim  
+    - Test data: Griffin Lim (En, De, Fr, Ru, It, Es, Pl, Uk)  
+  - Round 2
+    - Model: RawNet3
+    - Training data: de_Griffin Lim
+    - Test data: Griffin Lim (En, De, Fr, Ru, It, Es, Pl, Uk)
+  - Round 3
+    - Model: RawNet3
+    - Training data: en_VITS
+    - Test data: VITS (En, De, Fr, It, Es, Pl, Uk)
+  - Round 4
+    - Model: RawNet3
+    - Training data: de_VITS
+    - Test data: VITS (En, De, Fr, It, Es, Pl, Uk)
+- Experiment 2: Investigating Language Impact on spectrogram features input model
+  - Round 1
+    - Model: SpecRNet  
+    - Training data: en_Griffin Lim  
+    - Test data: Griffin Lim (En, De, Fr, Ru, It, Es, Pl, Uk)  
+  - Round 2
+    - Model: SpecRNet
+    - Training data: de_Griffin Lim
+    - Test data: Griffin Lim (En, De, Fr, Ru, It, Es, Pl, Uk)
+  - Round 3
+    - Model: SpecRNet
+    - Training data: en_VITS
+    - Test data: VITS (En, De, Fr, It, Es, Pl, Uk)
+  - Round 4
+    - Model: SpecRNet
+    - Training data: de_VITS
+    - Test data: VITS (En, De, Fr, It, Es, Pl, Uk)
+   
+
 ## Testing the Model
 Adjust the `real_metafile_name` and `spoof_metafile_name` of test data and choose the trained model you want to use. Run `my_eval.py`.
     
