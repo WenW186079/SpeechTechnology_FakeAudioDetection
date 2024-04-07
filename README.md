@@ -85,12 +85,18 @@ The list of models are stored in `models.json`, e.g.:
 {
   "models": [
     {
-      "name": "specrnet - en/griffin_lim",
-      "config_file": "configs/model__specrnet__1710998052.7580142.yaml"
-    },
-    {
-      "name": "specrnet - en/vits",
-      "config_file": "configs/model__specrnet__1711007175.876735.yaml"
+      "name": "rawnet3",
+      "configs": [
+        {
+          "training data language": "en",
+          "training data model": "griffin_lim",
+          "file": "model__rawnet3__1711981315.3284469.yaml"
+        },
+        {
+          "training data language": "de",
+          "training data model": "griffin_lim",
+          "file": "model__rawnet3__1711982401.4415708.yaml"
+        },
     }
   ]
 }
