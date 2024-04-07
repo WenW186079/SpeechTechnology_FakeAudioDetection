@@ -1,0 +1,10 @@
+checkpoint:
+  path: /mount/arbeitsdaten54/projekte/deepfake/SpeechTechnology2023/ww/deepfake-whisper-features/trained_models/model__rawnet3__1708374905.9173865/ckpt.pth
+data:
+  seed: 42
+model:
+  name: rawnet3
+  optimizer:
+    lr: 0.001
+    weight_decay: 5.0e-05
+  parameters: {}
