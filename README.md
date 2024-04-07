@@ -50,6 +50,7 @@ To ensure no overlap, real and spoof data are separated into three files: train,
 Real:`de_real_train.csv` `de_real_dev.csv` `de_real_test.csv`   
 Spoof: `de_gl_train.csv` `de_gl_dev.csv` `de_gl_test.csv`  
 
+
 ## Training the Model
 Two models are used:   
 - RawNet3  
@@ -108,6 +109,9 @@ The list of models are stored in `models.json`, e.g.:
 ```
 The trained models can be found in [trained_models](https://drive.google.com/drive/folders/1n7g5zXGX4D3aslLPvk4gS8rNANnP4jD-?usp=drive_link)
 
+## Testing the Model
+Adjust the `real_metafile_name` and `spoof_metafile_name` of test data and choose the trained model you want to use. Run `my_eval.py`.
+  
 ## Experiments
 
 - Experiment 1: Investigating Language Impact on Raw Waveform Input Model
@@ -144,10 +148,6 @@ The trained models can be found in [trained_models](https://drive.google.com/dri
     - Model: SpecRNet
     - Training data: de_VITS
     - Test data: VITS (En, De, Fr, It, Es, Pl, Uk)
-   
-
-## Testing the Model
-Adjust the `real_metafile_name` and `spoof_metafile_name` of test data and choose the trained model you want to use. Run `my_eval.py`.
     
 ## Performance
 The test results of each test data with each model are stored in `test_results.csv`.
