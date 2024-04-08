@@ -51,7 +51,7 @@ Real:`de_real_train.csv` `de_real_dev.csv` `de_real_test.csv`
 Spoof: `de_gl_train.csv` `de_gl_dev.csv` `de_gl_test.csv`  
 
 
-## Training the Model
+## Training Models
 Two models are used:   
 - RawNet3  
   - Input: raw audio  
@@ -109,7 +109,7 @@ The list of models are stored in `models.json`, e.g.:
 ```
 The trained models can be found in [trained_models](https://drive.google.com/drive/folders/1n7g5zXGX4D3aslLPvk4gS8rNANnP4jD-?usp=drive_link)
 
-## Testing the Model
+## Testing Models
 Adjust the `real_metafile_name` and `spoof_metafile_name` of test data and choose the trained model you want to use. Run `my_eval.py`.
   
 ## Experiments
@@ -131,6 +131,7 @@ Adjust the `real_metafile_name` and `spoof_metafile_name` of test data and choos
     - Model: RawNet3
     - Training data: de_VITS
     - Test data: VITS (En, De, Fr, It, Es, Pl, Uk)
+      
 - Experiment 2: Investigating Language Impact on spectrogram features input model
   - Round 1
     - Model: SpecRNet  
