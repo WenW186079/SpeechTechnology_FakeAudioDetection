@@ -25,7 +25,7 @@ cd /mount/arbeitsdaten/deepfake/SpeechTechnology2023/ww
 source speech/bin/activate
 ```
 
-## Data
+## Dataset
 Spoof data source: [MLAAD Dataset](https://owncloud.fraunhofer.de/index.php/s/tL2Y1FKrWiX4ZtP#editor)  
 Bona-fide data source: [Mailabs Speech Dataset](https://www.caito.de/2019/01/03/the-m-ailabs-speech-dataset/)
 
@@ -33,10 +33,10 @@ Bona-fide data source: [Mailabs Speech Dataset](https://www.caito.de/2019/01/03/
 - Random selection.  
 - Balanced: Equal number of spoof and bona-fide samples (1000+1000). As MLAAD data is generated based on Mailabs, the duration of each label is similar.
 
-### Selected Data
-- Traditional generating spoof data:
+### Selected Dataset
+- Traditional generating spoof dataset:
   - Griffin Lim (En, De, Fr, Ru, It, Es, Pl, Uk)
-- Neural network-based generating spoof data:
+- Neural network-based generating spoof dataset:
   - VITS (En, De, Fr, It, Es, Pl, Uk)
   - VITS Neon (En, De)
 
@@ -55,9 +55,11 @@ Spoof: `de_gl_train.csv` `de_gl_dev.csv` `de_gl_test.csv`
 Two models are used:   
 - RawNet3  
   - Input: raw audio  
-  - No spectrogram-like features  
+  - No spectrogram-like features
+  - The RawNet3 architecture is in a hybrid form of the ECAPA-TDNN and the RawNet2 with additional features including logarithm and normalisation.     
 - SpecRNet  
-  - Frontend algorithm: LFCC  
+  - Frontend algorithm: LFCC
+  - A novel spectrogram– based model inspired by RawNet2 backbone.    
 
 Adjust the `real_metafile_name` and `spoof_metafile_name` of training data and dev data in `my_train.py`.  
 List of spoof path:  
