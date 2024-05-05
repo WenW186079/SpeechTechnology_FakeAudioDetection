@@ -87,7 +87,7 @@ And corresponding model path:
 `/configs/training/specrnet.yaml"`  
 
 ## Pretrained models
-Pretrained models can be found in `/configs/`  
+Pretrained models can be found [here](https://drive.google.com/drive/u/0/folders/1ysJuDmJSNiZ-ssyNeh_nDhT4eh_C-fLv). 
 The list of models are stored in `models.json`, e.g.:  
 ```
 {
